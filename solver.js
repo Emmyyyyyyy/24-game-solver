@@ -34,7 +34,7 @@ app.get('/cheat24', async (req, res) => {
   
     res.json(solutions);
 });
-
+ 
 function find24Equations(number) {
   const permutations = getPermutations(number);
   const operators = ['+', '-', '*', '/'];
